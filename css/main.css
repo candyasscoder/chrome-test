@@ -1,0 +1,28 @@
+body {
+	background: black;
+}
+
+#hal {
+	height: 60vh;
+	width: auto;
+	position: absolute;
+	left: calc(50% - 30vh);
+	top: 10vh;
+	z-index: 2;
+}
+
+.logger {
+	font-family: Consolas, monaco, monospace;
+    display: table-cell;
+    vertical-align: bottom;
+    width: 100vw;
+    overflow: hidden;
+    opacity: 0.8;
+    color: #eee;
+    left: 0px;
+    bottom: 0px;
+    z-index: 0;
+    white-space:nowrap;
+    position: absolute;
+    font-size: 12px;
+}
